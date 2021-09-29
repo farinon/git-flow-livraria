@@ -13,7 +13,7 @@ public class LivroFisico extends Livro implements Promocional{
 	}
 	
 	public void pimponeta(){
-		System.out.println("Pimponeta Peta Peta Perruge, faz pim pom!");
+		System.out.println("Pimponeta Peta Peta Perruge, faz pim pom no TURBO!");
 	}
 
 	@Override
