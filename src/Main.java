@@ -3,6 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+        
+		System.out.println("### Livraria 2,0,0");
         System.out.println("### Criando Autores e Editoras");
         Autor autor1 = new Autor("Fulano de Tal", "fulano@gmail.com", "321.321.321-53");
         System.out.println(autor1);
@@ -18,13 +20,13 @@ public class Main {
         
         System.out.println("");
         
-        System.out.println("### Criando um Livro Físico");
-        LivroFisico livro1 = new LivroFisico("As tranças de um careca", "Melhor livro do mundo segundo a crítica", 15, autor1);
+        System.out.println("### Criando um Livro Fï¿½sico");
+        LivroFisico livro1 = new LivroFisico("As tranï¿½as de um careca", "Melhor livro do mundo segundo a crï¿½tica", 15, autor1);
         System.out.println(livro1);        
         System.out.println("");
         
         System.out.println("### Criando um E-Book");
-        Ebook livro2 = new Ebook("As novissimas tranças de um careca", "Bem pior que o original, segundo a critica", 9, autor2);
+        Ebook livro2 = new Ebook("As novissimas tranï¿½as de um careca", "Bem pior que o original, segundo a critica", 9, autor2);
         System.out.println("Ebook - "+livro2);
         System.out.println("");
         
@@ -33,23 +35,23 @@ public class Main {
         System.out.println("Revista - "+revista1);
         System.out.println("");
         
-        System.out.println("### Aplicando 30% de desconto a cada produto cadastrado ou dando erro se o o produto não permitir tanto desconto");
+        System.out.println("### Aplicando 30% de desconto a cada produto cadastrado ou dando erro se o o produto nï¿½o permitir tanto desconto");
         if(livro1.aplicaDesconto(30)==true) {
         	System.out.println("Desconto Aplicado.");
         	System.out.println(livro1);        
             System.out.println("");
         } else {
-        	System.out.println("Desconto Excede o Máximo Parametrizado.");
+        	System.out.println("Desconto Excede o Mï¿½ximo Parametrizado.");
         	System.out.println(livro1);
             System.out.println("");
         }
 
-        if(livro2.aplicaDesconto(30)==true) { // é um e-book, deve ser o único funcionar com 30%...
+        if(livro2.aplicaDesconto(30)==true) { // ï¿½ um e-book, deve ser o ï¿½nico funcionar com 30%...
         	System.out.println("Desconto Aplicado.");
         	System.out.println("Ebook - "+livro2);        
             System.out.println("");
         } else {
-        	System.out.println("Desconto Excede o Máximo Parametrizado.");
+        	System.out.println("Desconto Excede o Mï¿½ximo Parametrizado.");
         	System.out.println("Ebook - "+livro2); 
             System.out.println("");
         }
@@ -59,7 +61,7 @@ public class Main {
         	System.out.println(revista1);        
             System.out.println("");
         } else {
-        	System.out.println("Desconto Excede o Máximo Parametrizado.");
+        	System.out.println("Desconto Excede o Mï¿½ximo Parametrizado.");
         	System.out.println(revista1);
             System.out.println("");
         }
