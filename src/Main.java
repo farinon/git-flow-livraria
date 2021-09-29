@@ -3,7 +3,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        System.out.println("### Versao 3");
         System.out.println("### Criando Autores e Editoras");
         Autor autor1 = new Autor("Fulano de Tal", "fulano@gmail.com", "321.321.321-53");
         System.out.println(autor1);
