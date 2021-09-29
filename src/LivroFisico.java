@@ -6,12 +6,16 @@ public class LivroFisico extends Livro implements Promocional{
 	}
 
 	
-	//Como essa função é um "get" e pública, Não entendi direito se ela deveria ter a responsabilidade de agregar o valor ao valor inicial
-	//ou apenas mostra-lo, por isso optei de fazer a segunda opção e apenas chama-la no constructor para agregar ao valor..
+	//Como essa funï¿½ï¿½o ï¿½ um "get" e pï¿½blica, Nï¿½o entendi direito se ela deveria ter a responsabilidade de agregar o valor ao valor inicial
+	//ou apenas mostra-lo, por isso optei de fazer a segunda opï¿½ï¿½o e apenas chama-la no constructor para agregar ao valor..
 	public double getTaxaImpressao() {
 		return super.getValor()*0.05;
 	}
 	
+	public void pimponeta(){
+		System.out.println("Pimponeta Peta Peta Perruge, faz pim pom!");
+	}
+
 	@Override
 	public boolean aplicaDesconto(double porcentagem) {
 		double descontoMaximo = 5;
@@ -35,5 +39,5 @@ public class LivroFisico extends Livro implements Promocional{
 	
 }
 
-//Livro físico desconto máximo de 5%
-//O livro físico possui uma taxa de impressão agregada ao seu valor, de 5% do valor inicial do livro
+//Livro fï¿½sico desconto mï¿½ximo de 5%
+//O livro fï¿½sico possui uma taxa de impressï¿½o agregada ao seu valor, de 5% do valor inicial do livro
